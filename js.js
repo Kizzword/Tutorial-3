@@ -42,10 +42,10 @@ function createChat(chatNum){
     var ndiv = document.createElement("div");
     ndiv.innerHTML = chatStr;
     if (chatNum == 1){
-        ndiv.style.backgroundColor = "#AFA"
+        ndiv.style.backgroundColor = "#78E"
     }
     else if (chatNum == 2){
-        ndiv.style.backgroundColor = "#AAF"
+        ndiv.style.backgroundColor = "#E15"
     }
     
     ndiv.style.padding = "10px";
